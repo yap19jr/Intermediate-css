@@ -4,20 +4,26 @@
     float: left;
     font-size: 1rem;
     padding: 2%;
-    width: 25%;
+    width: 21%;
+    margin: 2%;
 }
 .bio-wrapper {
     font-size: 24px;
     background-color: #c0e0c3;
-    height: 300px;
-    overflow: scroll;
 }
 
 .bio-wrapper::after {
     visibility: hidden;
-    /* display: block; */
+    display: block;
     font-size: 0;
-    /* content: ""; */
+    content: "";
     clear: both;
     height: 0;
+}
+.social-list{
+    list-style: none;
+    padding: 0;
+}
+.social-list > li{
+    display: inline-block;
 }
